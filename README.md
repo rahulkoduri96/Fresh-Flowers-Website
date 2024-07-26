@@ -1,13 +1,13 @@
-# E-Commerce Website
+# Fresh Flowers - E-Commerce Website
 
 ## Overview
 
-This is an e-commerce website developed using HTML, CSS, and JavaScript. The project aims to provide users with a seamless online shopping experience. The website features a product listing page, product detail page, and a shopping cart. The backend implementation is currently in progress.
+This is an e-commerce website developed using HTML, CSS, and JavaScript. The project aims to provide users with a seamless online shopping experience for fresh flowers. The website features a product listing page, product detail page, and a shopping cart. The backend implementation is currently in progress.
 
 ## Features
 
-- **Product Listing:** Users can browse through a list of products.
-- **Product Details:** Detailed view of individual products.
+- **Product Listing:** Users can browse through a list of fresh flowers.
+- **Product Details:** Detailed view of individual flower products.
 - **Responsive Design:** The website is optimized for both desktop and mobile devices.
 
 ## Upcoming Features
@@ -32,7 +32,6 @@ This is an e-commerce website developed using HTML, CSS, and JavaScript. The pro
   - JavaScript
 
 - **Backend (Upcoming):**
-  - Spring Boot
-  - Sevlet, JSP
-  - MySQL
-    
+  - Node.js (or any preferred backend framework)
+  - Express.js (for handling routes and server-side logic)
+  - MongoDB/MySQL (for storing user and product data)
