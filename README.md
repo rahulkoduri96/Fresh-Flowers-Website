@@ -32,6 +32,6 @@ This is an e-commerce website developed using HTML, CSS, and JavaScript. The pro
   - JavaScript
 
 - **Backend (Upcoming):**
-  - Node.js (or any preferred backend framework)
-  - Express.js (for handling routes and server-side logic)
-  - MongoDB/MySQL (for storing user and product data)
+  - Sprint Boot
+  - Servlet, JSP
+  - MySQL
