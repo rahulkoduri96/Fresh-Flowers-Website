@@ -5,7 +5,7 @@ let count=0;
 
 for(i=0; i<n; i++){
    cart[i].addEventListener("click", function(){ 
-   ++count;
+   count++;
    span.innerHTML = count;
 });
 }
