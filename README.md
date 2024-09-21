@@ -6,23 +6,12 @@ This is an e-commerce website developed using HTML, CSS, and JavaScript. The pro
 
 ## Features
 
-- **Product Listing:** Users can browse through a list of fresh flowers.
-- **Product Details:** Detailed view of individual flower products.
-- **Responsive Design:** The website is optimized for both desktop and mobile devices.
-
-## Upcoming Features
-
-- **User Authentication:**
-  - Login page where users can log in using their credentials.
-  - Registration page for new users to create an account.
-  - Authentication and session management.
-
-- **Shopping Cart System:**
-  - Add items to the cart.
-  - View items in the cart.
-  - Update item quantities in the cart.
-  - Remove items from the cart.
-  - Checkout process.
+- **Product Listing:** Users can browse through a variety of fresh flowers.
+- **Product Details:** View detailed information for each individual flower product.
+- **Login Page:** Users can securely log in using their credentials.
+- **Registration Page:** New users can create an account to start shopping.
+- **Authentication:** Secure user authentication with session management.
+- **Responsive Design:** Optimized layout for both desktop and mobile devices.
 
 ## Tech Stack
 
@@ -32,6 +21,5 @@ This is an e-commerce website developed using HTML, CSS, and JavaScript. The pro
   - JavaScript
 
 - **Backend (Upcoming):**
-  - Sprint Boot
   - Servlet, JSP
   - MySQL
