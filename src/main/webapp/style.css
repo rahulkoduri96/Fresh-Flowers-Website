@@ -96,6 +96,25 @@ header .icons a:hover {
     color: var(--pink);
 }
 
+#login, #signup{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#login{
+    margin-left: 4rem;
+}
+
+#signup{
+    padding: .8rem 1rem;
+    background-color: var(--pink);
+    color: white;
+    border-radius: .5rem;
+    /* border: 1px solid black; */
+}
+
+
+
 header #toggler{
     display: none;
 }
@@ -500,6 +519,16 @@ header .fa-bars{
 
 /* media queries */
 
+@media (max-width: 1150px) {
+    
+    header{
+        padding: 2rem;
+    }
+    #login{
+        margin-left: 2rem;
+    }
+}
+
 @media (max-width: 991px) {
 
     html{
@@ -539,7 +568,7 @@ header .fa-bars{
 
     header .navbar a{
         margin: 1.5rem;
-        padding: 1.5rem;
+        padding: 1.5]rem;
         background: white;
         display: block;
         border: .1rem solid rgba(0, 0, 0, .1);
@@ -572,6 +601,15 @@ header .fa-bars{
 
     .heading{
         font-size: 3rem;
+    }
+    header .icons a{
+        display: none;
+    }
+    #signup, #login{
+        display: inline-block;
+    }
+    #login{
+        margin-left: 0;
     }
 }
 

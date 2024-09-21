@@ -1,3 +1,9 @@
+<%
+	if(session.getAttribute("name")==null){
+		response.sendRedirect("login.jsp");
+	}
+%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,10 +42,11 @@
     <!-- Home Section Starts -->
 
     <section class="home" id="home">
-        
+        <img src="images/home.jpg" >
         <div class="content">
+        	
             <h3>fresh flowers</h3>
-            <span> natural & beautiful flowers </span>
+            <span> natural and beautiful flowers </span>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi vero ea sed quasi sint obcaecati similique eaque aliquid facere molestiae soluta distinctio, repellendus in excepturi tempora veritatis? Quo, corporis esse.</p>
             <a href="#" class="btn">shop now</a>
         </div>
@@ -78,7 +85,7 @@
     <section class="icons-container">
 
         <div class="icons">
-            <img src="Images/delivery.png" alt="">
+            <img src="images/delivery.png" alt="">
             <div class="info">
                 <h3>free delivery</h3>
                 <span>on all orders</span>
@@ -86,7 +93,7 @@
         </div>
 
         <div class="icons">
-            <img src="Images/return.png" alt="">
+            <img src="images/return.png" alt="">
             <div class="info">
                 <h3>10 days returns</h3>
                 <span>moneyback guarantee</span>
@@ -94,15 +101,15 @@
         </div>
 
         <div class="icons">
-            <img src="Images/gift.png" alt="">
+            <img src="images/gift.png" alt="">
             <div class="info">
-                <h3>offer & gifts</h3>
+                <h3>offer and gifts</h3>
                 <span>on all orders</span>
             </div>
         </div>
 
         <div class="icons">
-            <img src="Images/credit-card.png" alt="">
+            <img src="images/credit-card.png" alt="">
             <div class="info">
                 <h3>secure payments</h3>
                 <span>protected by paypal</span>
@@ -124,7 +131,7 @@
             <div class="box">
                 <span class="discount">-10%</span>
                 <div class="image">
-                    <img src="Images/image-1.png" alt="Flower pot">
+                    <img src="images/image-1.png" alt="Flower pot">
                     <div class="icons">
                         <a href="#" class="fas fa-heart"></a>
                         <a href="#" class="cart-btn">add to cart</a>
@@ -140,7 +147,7 @@
             <div class="box">
                 <span class="discount">-15%</span>
                 <div class="image">
-                    <img src="Images/image-2.png" alt="Flower pot">
+                    <img src="images/image-2.png" alt="Flower pot">
                     <div class="icons">
                         <a href="#" class="fas fa-heart"></a>
                         <a href="#" class="cart-btn">add to cart</a>
@@ -156,7 +163,7 @@
             <div class="box">
                 <span class="discount">-5%</span>
                 <div class="image">
-                    <img src="Images/image-3.png" alt="Flower pot">
+                    <img src="images/image-3.png" alt="Flower pot">
                     <div class="icons">
                         <a href="#" class="fas fa-heart"></a>
                         <a href="#" class="cart-btn">add to cart</a>
@@ -172,7 +179,7 @@
             <div class="box">
                 <span class="discount">-20%</span>
                 <div class="image">
-                    <img src="Images/image-4.png" alt="Flower pot">
+                    <img src="images/image-4.png" alt="Flower pot">
                     <div class="icons">
                         <a href="#" class="fas fa-heart"></a>
                         <a href="#" class="cart-btn">add to cart</a>
@@ -188,7 +195,7 @@
             <div class="box">
                 <span class="discount">-17%</span>
                 <div class="image">
-                    <img src="Images/image-5.png" alt="Flower pot">
+                    <img src="images/image-5.png" alt="Flower pot">
                     <div class="icons">
                         <a href="#" class="fas fa-heart"></a>
                         <a href="#" class="cart-btn">add to cart</a>
@@ -204,7 +211,7 @@
             <div class="box">
                 <span class="discount">-3%</span>
                 <div class="image">
-                    <img src="Images/image-6.png" alt="Flower pot">
+                    <img src="images/image-6.png" alt="Flower pot">
                     <div class="icons">
                         <a href="#" class="fas fa-heart"></a>
                         <a href="#" class="cart-btn">add to cart</a>
@@ -220,7 +227,7 @@
             <div class="box">
                 <span class="discount">-18%</span>
                 <div class="image">
-                    <img src="Images/image-7.png" alt="Flower pot">
+                    <img src="images/image-7.png" alt="Flower pot">
                     <div class="icons">
                         <a href="#" class="fas fa-heart"></a>
                         <a href="#" class="cart-btn">add to cart</a>
@@ -236,7 +243,7 @@
             <div class="box">
                 <span class="discount">-10%</span>
                 <div class="image">
-                    <img src="Images/image-8.png" alt="Flower pot">
+                    <img src="images/image-8.png" alt="Flower pot">
                     <div class="icons">
                         <a href="#" class="fas fa-heart"></a>
                         <a href="#" class="cart-btn">add to cart</a>
@@ -252,7 +259,7 @@
             <div class="box">
                 <span class="discount">-5%</span>
                 <div class="image">
-                    <img src="Images/image-9.png" alt="Flower pot">
+                    <img src="images/image-9.png" alt="Flower pot">
                     <div class="icons">
                         <a href="#" class="fas fa-heart"></a>
                         <a href="#" class="cart-btn">add to cart</a>
@@ -287,7 +294,7 @@
                 </div>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic error nam assumenda ipsum blanditiis tenetur perferendis. Repellendus aut, cumque, animi mollitia tempore obcaecati delectus voluptates dolor nulla modi laboriosam totam?</p>
                 <div class="user">
-                    <img src="Images/pic-1.jpg" alt="">
+                    <img src="images/pic-1.jpg" alt="">
                     <div class="user-info">
                         <h3>john deo</h3>
                         <span>happy customer</span>
@@ -307,7 +314,7 @@
                 </div>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic error nam assumenda ipsum blanditiis tenetur perferendis. Repellendus aut, cumque, animi mollitia tempore obcaecati delectus voluptates dolor nulla modi laboriosam totam?</p>
                 <div class="user">
-                    <img src="Images/pic-2.jpg" alt="">
+                    <img src="images/pic-2.jpg" alt="">
                     <div class="user-info">
                         <h3>julia chan</h3>
                         <span>happy customer</span>
@@ -326,7 +333,7 @@
                 </div>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic error nam assumenda ipsum blanditiis tenetur perferendis. Repellendus aut, cumque, animi mollitia tempore obcaecati delectus voluptates dolor nulla modi laboriosam totam?</p>
                 <div class="user">
-                    <img src="Images/pic-3.jpg" alt="">
+                    <img src="images/pic-3.jpg" alt="">
                     <div class="user-info">
                         <h3>Mart klin</h3>
                         <span>happy customer</span>
@@ -357,7 +364,7 @@
             </form>
 
             <div class="image">
-                <img src="Images/watering.png" alt="">
+                <img src="images/watering.png" alt="">
             </div>
 
         </div>
@@ -401,7 +408,7 @@
                 <a href="#">+123-456-7890</a>
                 <a href="#">example@gmail.com</a>
                 <a href="#">mumbai, India - 400104</a>
-                <img src="Images/pay.png" alt="">
+                <img src="images/pay.png" alt="">
             </div>
         </div>
 
