@@ -1,24 +1,35 @@
-// Get the elements
-const transactionLink = document.getElementById('transaction');
-const dashboardLink = document.getElementById('dashboard');
-const listDiv = document.querySelector('.list');
-const personalDetailsDiv = document.querySelector('.personal-details');
-const header = document.querySelector('.header');
+let cart = document.querySelectorAll('.cart-btn');
+let n = cart.length;
+let span = document.getElementById('toast');
+let count=0;
+let cartList = document.querySelector('.cart-list');
 
-// Set the default state
-personalDetailsDiv.style.display = 'block';
-listDiv.style.display = 'none';
+for(i=0; i<n; i++){
+   cart[i].addEventListener("click", function(e){ 
+      e.preventDefault();
+      count++;
+      span.innerHTML = count;
+   });
 
-// Add event listeners
-transactionLink.addEventListener('click', () => {
-  personalDetailsDiv.style.display = 'none';
-  listDiv.style.display = 'block';
-  header.innerHTML = "Transaction";
-
-});
-
-dashboardLink.addEventListener('click', () => {
-  personalDetailsDiv.style.display = 'block';
-  listDiv.style.display = 'none';
-    header.innerHTML = "Dashboard";
-});
+   cart[i].addEventListener("click",function(){
+      var image = cart[i].parentElement.previousElementSibling;
+      let str = `<div id="item1" class="cart-items">
+                    <div class=product>
+                        <img src="${image}" alt="">
+                        <div class="products-details">
+                            <h3>Flower Pot</h3>
+                            <h2>Sunflowers</h3>
+                            <h4><span>Per Pot- </span>5 Flowers</h4>
+                        </div>
+                    </div>
+                    <h2>$12.99</h2>
+                    <div class="quantity">
+                        <h2 class="left"><</h2>
+                        <h2>2</h2>
+                        <h2 class="right">></h2>
+                    </div>
+                    <h2>$24.99</h2>
+                </div>`
+      cartList.appendChild(str);
+   })
+}

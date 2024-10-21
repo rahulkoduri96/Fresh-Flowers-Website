@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart-Page</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <nav class="nav">
+        <div class="navbar">
+            <div class="logo-search">
+                <a href="#" class="logo">Flower<span>.</span></a>
+                <div class="searchdiv">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" name="" placeholder="Search..." id="search">
+                </div>
+            </div>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </nav>
+
+    <section class="heading">
+        <h1>Your Cart</h1>
+        <p><b><span>1</span> items</b> in your bag</p>
+    </section>
+
+    <section class="main-cart">
+        <div class="cart">
+            <div class="header">
+                <h4 class="p1">Product</h4>
+                <h4>Price</h4>
+                <h4>Quantity</h4>
+                <h4>Total Price</h4>
+            </div>
+            <div class="cart-list">
+                <div id="item1" class="cart-items">
+                    <div class=product>
+                        <img src="images/image-1.png" alt="">
+                        <div class="products-details">
+                            <h3>Flower Pot</h3>
+                            <h2>Sunflowers</h3>
+                            <h4><span>Per Pot- </span>5 Flowers</h4>
+                        </div>
+                    </div>
+                    <h2>$12.99</h2>
+                    <div class="quantity">
+                        <h2 class="left"><</h2>
+                        <h2>2</h2>
+                        <h2 class="right">></h2>
+                    </div>
+                    <h2>$24.99</h2>
+                </div>   
+            </div>
+        </div>
+        <div class="summary">
+            <div class="subtotal">
+                <p>Subtotal</p>
+                <p>$24.99</p>
+            </div>
+            <div class="shipping">
+                <p>Estimated Shipping</p>
+                <p>$6.00</p>
+            </div>
+            <div class="tax">
+                <p>Estimated Tax</p>
+                <p>-</p>
+            </div>
+
+            <div class="total">
+                <p><b>Total</b></p>
+                <p><b>$30.99</b></p>
+            </div>
+
+            <div class="buttons">
+                <button class="checkout">Checkout</button>
+                <button class="paypal"><img src="Images/paypal.png" alt=""></button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

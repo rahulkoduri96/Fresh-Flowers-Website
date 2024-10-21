@@ -9,7 +9,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Commerce</title>
+    <title>Fresh Flowers</title>
     <link rel="stylesheet" href="style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -44,11 +44,10 @@
     <section class="home" id="home">
         <img src="images/home.jpg" >
         <div class="content">
-        	
             <h3>fresh flowers</h3>
             <span> natural and beautiful flowers </span>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi vero ea sed quasi sint obcaecati similique eaque aliquid facere molestiae soluta distinctio, repellendus in excepturi tempora veritatis? Quo, corporis esse.</p>
-            <a href="#" class="btn">shop now</a>
+            <p>Discover the beauty of nature at your fingertips! At Fresh Flowers, we offer a vibrant selection of fresh, handpicked flowers to brighten your day and bring joy to your loved ones. From elegant roses to cheerful daisies, we have something for every occasion.</p>
+            <a href="#products" class="btn">shop now</a>
         </div>
     </section>
 
@@ -69,8 +68,8 @@
 
             <div class="content">
                 <h3>why choose us?</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores error vel iste officia cumque minima accusantium sunt aliquid nostrum quae, inventore eaque. Totam soluta itaque cum aspernatur, at earum ipsum.</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus aliquam nulla, eveniet quis magni voluptate harum assumenda ratione. Tempora, nostrum!</p>
+                <p>At Fresh Flowers, we pride ourselves on delivering only the best. Our flowers are carefully handpicked from trusted growers, ensuring that every bouquet is fresh, vibrant, and long-lasting. We believe in providing top-quality products that will brighten any occasion, whether it's a birthday, anniversary, or just a spontaneous gesture.</p>
+                <p>In addition to our beautiful floral arrangements, we offer fast and reliable delivery services. With same-day delivery options, you can count on us to bring a smile to your loved ones quickly and efficiently. Trust us to make every moment special with our attention to detail and customer satisfaction at the heart of our service.</p>
                 <a href="#" class="btn">learn more</a>
             </div>
 
@@ -139,7 +138,7 @@
                     </div>
                 </div>
                 <div class="content">
-                    <h3>flower pot</h3>
+                    <h3>Orange Dahlia</h3>
                     <div class="price"> $12.99 <span>$15.99</span></div>
                 </div>
             </div>
@@ -155,8 +154,8 @@
                     </div>
                 </div>
                 <div class="content">
-                    <h3>flower pot</h3>
-                    <div class="price"> $12.99 <span>$15.99</span></div>
+                    <h3>Yellow Gerbera</h3>
+                    <div class="price"> $10.99 <span>$15.99</span></div>
                 </div>
             </div>
 
@@ -171,8 +170,8 @@
                     </div>
                 </div>
                 <div class="content">
-                    <h3>flower pot</h3>
-                    <div class="price"> $12.99 <span>$15.99</span></div>
+                    <h3>Pink Camellia</h3>
+                    <div class="price"> $13.99 <span>$15.99</span></div>
                 </div>
             </div>
 
@@ -187,8 +186,8 @@
                     </div>
                 </div>
                 <div class="content">
-                    <h3>flower pot</h3>
-                    <div class="price"> $12.99 <span>$15.99</span></div>
+                    <h3>Orange Dahlia</h3>
+                    <div class="price"> $11.99 <span>$15.99</span></div>
                 </div>
             </div>
 
@@ -203,8 +202,8 @@
                     </div>
                 </div>
                 <div class="content">
-                    <h3>flower pot</h3>
-                    <div class="price"> $12.99 <span>$15.99</span></div>
+                    <h3>Pink Dahlia</h3>
+                    <div class="price"> $11.46 <span>$15.99</span></div>
                 </div>
             </div>
 
@@ -219,8 +218,8 @@
                     </div>
                 </div>
                 <div class="content">
-                    <h3>flower pot</h3>
-                    <div class="price"> $12.99 <span>$15.99</span></div>
+                    <h3>Pink Roses</h3>
+                    <div class="price"> $14.24 <span>$15.99</span></div>
                 </div>
             </div>
 
@@ -235,8 +234,8 @@
                     </div>
                 </div>
                 <div class="content">
-                    <h3>flower pot</h3>
-                    <div class="price"> $12.99 <span>$15.99</span></div>
+                    <h3>Orange Roses</h3>
+                    <div class="price"> $12.21 <span>$15.99</span></div>
                 </div>
             </div>
 
@@ -251,7 +250,7 @@
                     </div>
                 </div>
                 <div class="content">
-                    <h3>flower pot</h3>
+                    <h3>Peony Bloom</h3>
                     <div class="price"> $12.99 <span>$15.99</span></div>
                 </div>
             </div>
@@ -267,8 +266,8 @@
                     </div>
                 </div>
                 <div class="content">
-                    <h3>flower pot</h3>
-                    <div class="price"> $12.99 <span>$15.99</span></div>
+                    <h3>White Daisy</h3>
+                    <div class="price"> $13.99 <span>$15.99</span></div>
                 </div>
             </div>
         </div>
@@ -292,7 +291,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic error nam assumenda ipsum blanditiis tenetur perferendis. Repellendus aut, cumque, animi mollitia tempore obcaecati delectus voluptates dolor nulla modi laboriosam totam?</p>
+                <p>The flowers were fresh and vibrant, exactly as shown on the website! Delivery was right on time, and they lasted for over a week. Great experience overall, and I will definitely order again!</p>
                 <div class="user">
                     <img src="images/pic-1.jpg" alt="">
                     <div class="user-info">
@@ -312,7 +311,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic error nam assumenda ipsum blanditiis tenetur perferendis. Repellendus aut, cumque, animi mollitia tempore obcaecati delectus voluptates dolor nulla modi laboriosam totam?</p>
+                <p>I've ordered from Fresh Flowers multiple times, and they always impress me with their service and quality. The flowers are fresh, and the delivery is quick and reliable.</p>
                 <div class="user">
                     <img src="images/pic-2.jpg" alt="">
                     <div class="user-info">
@@ -331,7 +330,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic error nam assumenda ipsum blanditiis tenetur perferendis. Repellendus aut, cumque, animi mollitia tempore obcaecati delectus voluptates dolor nulla modi laboriosam totam?</p>
+                <p>Ordered a bouquet for my wife's birthday, and it was perfect! The flowers were beautiful, and the delivery was fast. Fresh Flowers really exceeded my expectations.</p>
                 <div class="user">
                     <img src="images/pic-3.jpg" alt="">
                     <div class="user-info">
@@ -381,11 +380,11 @@
 
             <div class="box">
                 <h3>quick links</h3>
-                <a href="#">Home</a>
-                <a href="#">about</a>
-                <a href="#">products</a>
-                <a href="#">review</a>
-                <a href="#">contact</a>
+                <a href="#home">Home</a>
+                <a href="#about">about</a>
+                <a href="#products">products</a>
+                <a href="#reviews">review</a>
+                <a href="#contact">contact</a>
             </div>
 
             <div class="box">

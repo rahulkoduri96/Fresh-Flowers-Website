@@ -13,7 +13,7 @@
     <description></description>
     <display-name>RegistrationServlet</display-name>
     <servlet-name>RegistrationServlet</servlet-name>
-    <servlet-class>com.amit.registration.RegistrationServlet</servlet-class>
+    <servlet-class>com.rahul.registration.RegistrationServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>RegistrationServlet</servlet-name>
@@ -23,7 +23,7 @@
     <description></description>
     <display-name>loginServlet</display-name>
     <servlet-name>loginServlet</servlet-name>
-    <servlet-class>com.amit.registration.loginServlet</servlet-class>
+    <servlet-class>com.rahul.registration.loginServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>loginServlet</servlet-name>
@@ -33,7 +33,7 @@
     <description></description>
     <display-name>logoutServlet</display-name>
     <servlet-name>logoutServlet</servlet-name>
-    <servlet-class>com.amit.registration.logoutServlet</servlet-class>
+    <servlet-class>com.rahul.registration.logoutServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>logoutServlet</servlet-name>

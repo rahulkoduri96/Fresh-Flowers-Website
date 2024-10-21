@@ -133,13 +133,18 @@ header .fa-bars{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background: url(Images/home.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
 }
+
+.home img{
+	width: 100%;
+	position: absolute;
+	left : 0;
+}
+
 
 .home .content{
     max-width: 62rem;
+    z-index : 3;
 }
 
 .home .content h3{
